@@ -14,7 +14,8 @@ def home(request):
     Returns:
         [type] -- [description]
     '''
-    return HttpResponse('This is Home')
+    title = "shutterbug-showcase"
+    return HttpResponse('This is Home', {"title":title})
     #return render(request, 'main/home.html')
 
 
