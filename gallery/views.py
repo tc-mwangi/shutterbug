@@ -15,8 +15,7 @@ def home(request):
         [type] -- [description]
     '''
     title = "shutterbug-showcase"
-    test = "Testing home 1,2,3..."
-    return render(request, 'main/home.html', {"title":title}, {"test":test})
+    return render(request, 'main/home.html', {"title":title})
 
 
 def gallery(request):

@@ -1,3 +1,26 @@
-h1 {
-    color: cyan;
+/* fonts --------------------------------------------------------------
+Poppins:400,500,600,700,800,900' 
+-----------------------------------------------------------------------
+
+/* colors -------------------------------------------------------------
+nyanza= #E1FFCA
+french lime= #91FE40
+smoky black= #0F0E10
+jet= #323232
+white= #FFFFFF
+-----------------------------------------------------------------------
+*/
+
+body {
+    font-family: 'Poppins', san-serif;
+    font-size: 100px;
+    font-weight: 900;
+    color: #91FE40
+  }
+
+h1{
+    font-family: 'Poppins', san-serif;
+    font-size: 100px;
+    font-weight: 900;
+
 }
