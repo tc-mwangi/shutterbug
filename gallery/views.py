@@ -14,7 +14,8 @@ def home(request):
     Returns:
         [type] -- [description]
     '''
-    return render(request, 'main/home.html')
+    return HttpResponse('This is Home')
+    #return render(request, 'main/home.html')
 
 
 def gallery(request):
@@ -26,11 +27,11 @@ def gallery(request):
     Returns:
         [type] -- [description]
     '''
+    return HttpResponse('This is Gallery')
+    #return render(request, 'main/gallery.html')
 
-    return render(request, 'main/gallery.html')
 
-
-def search(request):
+def search_results(request):
     '''renders search results
     
     Arguments:
@@ -39,5 +40,5 @@ def search(request):
     Returns:
         [type] -- [description]
     '''
-
-    return render(request, 'main/search.html')
+    return HttpResponse('This is Search')
+    #return render(request, 'main/search.html')
