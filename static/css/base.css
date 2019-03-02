@@ -13,14 +13,43 @@ white= #FFFFFF
 
 body {
     font-family: 'Poppins', san-serif;
-    font-size: 100px;
-    font-weight: 900;
-    color: #91FE40
   }
 
-h1{
-    font-family: 'Poppins', san-serif;
-    font-size: 100px;
-    font-weight: 900;
+#main-nav{
+    /* position: absolute;
+    width: 300px;
+    height: 1000px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0px; */
+    background: #0F0E10;
+}
+
+#mini-nav{
+    /* position: absolute;
+    width: 150px;
+    height: 1000px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px; */
+    background: #91FE40;
+}
+
+#intro-image{
+    /* position: absolute;
+    width: 900px;
+    height: 1000px;
+    left: 218px;
+    top: 0px;
+    bottom: 0px; */
+    /* background: url(/static/images/faith2.jpg), #E1FFCA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    background: #E1FFCA;
 
 }
+
+
+
+
+

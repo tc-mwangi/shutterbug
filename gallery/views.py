@@ -15,7 +15,7 @@ def home(request):
         [type] -- [description]
     '''
     title = "shutterbug-showcase"
-    return render(request, 'figma.html', {"title":title})
+    return render(request, 'main/home.html', {"title":title})
 
 
 def gallery(request):
