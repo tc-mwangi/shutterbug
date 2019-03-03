@@ -46,13 +46,13 @@ class Image(models.Model):
     class meta:
         ordering = ['img_name']
 
-    @classmethod
+  
     def save_image(self):
         '''save image to the database
         '''
         self.save()
 
-    @classmethod
+    
     def delete_image(self):
         '''delete image from database
         '''
@@ -77,7 +77,7 @@ class Image(models.Model):
 
 
     @classmethod
-    def filter_by_location(location):
+    def filter_by_location(cls, search_term):
         '''filter image by location
         '''
         image = cls.objects.filter(location__icontains=search_term)
