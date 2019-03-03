@@ -15,7 +15,7 @@ class Location(models.Model):
 
 
 class Category(models.Model):
-    '''creates instances of category
+    '''creates instances of characters
     
     Arguments:
         models {[type]} -- [description]
@@ -38,6 +38,7 @@ class Image(models.Model):
     location = models.ForeignKey(Location)
     category = models.ForeignKey(Category)
     post_date = models.DateTimeField(auto_now_add=True)
+    upload_image= models.ImageField
 
 
     def __str__(self):
