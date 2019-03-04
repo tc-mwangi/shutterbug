@@ -3,7 +3,6 @@ from django.http import HttpResponse, Http404
 import datetime as datetime
 from .models import Image, Location, Category
 
-
 def home(request):
     '''renders home page
     
