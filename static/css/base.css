@@ -15,6 +15,11 @@ body {
     font-family: 'Poppins', san-serif;
   }
 
+#click-logo{
+  float:right;
+  left:500px;
+}
+
 #main-nav{
     /* position: absolute;
     width: 300px;
@@ -47,19 +52,16 @@ body {
     height: 100%;
 }
 
+#logo {
+  position: relative;
+  left:200px;
+  top:100px;
+  bottom:200px ;  
+}
 
 #main-logo {
-    margin-top: 100px;
-    margin-bottom: 30px;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: bold;
-    line-height: normal;
-    font-size: 300px;
-
-    color: #91FE40;
-
-    transform: rotate(90deg);
+    width:75%;
+    height:700px;   
 }
 
 
