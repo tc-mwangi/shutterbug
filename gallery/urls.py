@@ -6,8 +6,9 @@ from django.conf.urls.static import static
 
 urlpatterns=[
     url('^$', views.home, name='homepage'),
-    url(r'^gallery/',views.gallery, name='gallery'),
+    url(r'^characters/',views.characters, name='characters'),
     url(r'^search/', views.search_results, name='search_results'),
+    url(r'^modal/', views.modal, name='modal'),
 ]
 
 if settings.DEBUG:

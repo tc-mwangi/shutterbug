@@ -7,13 +7,11 @@
 <body>
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="#">Home</a>
-    <a href="#">Characters</a>
+    <a href="{% url 'homepage' %}">Home</a>
+    <a href="{% url 'characters' %}">Characters</a>
+    <a href="{% url 'search_results' %}">Search</a>
   </div>
   <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; click</span>
 
-  <script>
-    
-  </script>
 </body>
 </html>

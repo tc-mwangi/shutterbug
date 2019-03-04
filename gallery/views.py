@@ -2,7 +2,6 @@ from django.shortcuts import render, redirect
 from django.http import HttpResponse, Http404
 import datetime as datetime
 from .models import Image, Location, Category
-# Create your views here.
 
 
 def home(request):
@@ -14,12 +13,12 @@ def home(request):
     Returns:
         [type] -- [description]
     '''
-    title = "shutterbug-showcase"
+    title = "click-showcase"
     return render(request, 'main/home.html', {"title":title})
 
 
-def gallery(request):
-    '''renders gallery page
+def characters(request):
+    '''renders characters page
     
     Arguments:
         request {[type]} -- [description]
@@ -27,8 +26,7 @@ def gallery(request):
     Returns:
         [type] -- [description]
     '''
-    return HttpResponse('This is Gallery')
-    #return render(request, 'main/gallery.html')
+    return render(request, 'main/characters.html')
 
 
 def search_results(request):
@@ -40,5 +38,16 @@ def search_results(request):
     Returns:
         [type] -- [description]
     '''
-    return HttpResponse('This is Search')
-    #return render(request, 'main/search.html')
+    return render(request, 'main/search.html')
+
+
+def modal(request):
+    '''renders image modal
+    
+    Arguments:
+        request {[type]} -- [description]
+    
+    Returns:
+        [type] -- [description]
+    '''
+    return render(request, 'main/modal.html')
