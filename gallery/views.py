@@ -29,15 +29,17 @@ def characters(request):
 
 
 def search_results(request):
-    '''renders search results
-    
-    Arguments:
-        request {[type]} -- [description]
-    
-    Returns:
-        [type] -- [description]
-    '''
-    return render(request, 'main/search.html')
+
+    if 'image' in request.GET and request.GET["image"]:
+        search_term = request.GET.get("imagei")
+        searched_images = Image.search_image_by_category(search_term)
+        message = f"{search_term}"
+
+        return render(request, 'main/search.html',{"message":message,"images": searched_images})
+
+    else:
+        message = "You haven't searched for any character"
+        return render(request, 'main/search.html',{"message":message})
 
 
 def modal(request):
