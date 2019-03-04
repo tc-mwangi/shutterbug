@@ -13,6 +13,12 @@ class Location(models.Model):
     def __str__(self):
         return self.location_name
 
+    class meta:
+        ordering =['location_name']
+    
+    def save_location(self):
+        self.save()
+
 
 class Category(models.Model):
     '''creates instances of characters
@@ -24,6 +30,12 @@ class Category(models.Model):
 
     def __str__(self):
         return self.category_name
+
+    class meta:
+        ordering =['category_name']
+    
+    def save_category(self):
+        self.save()
 
 
 class Image(models.Model):
@@ -38,7 +50,7 @@ class Image(models.Model):
     location = models.ForeignKey(Location)
     category = models.ForeignKey(Category)
     post_date = models.DateTimeField(auto_now_add=True)
-    upload_image= models.ImageField
+    upload_image= models.ImageField(upload_to = 'images/')
 
 
     def __str__(self):
