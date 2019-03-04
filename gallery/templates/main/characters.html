@@ -1,1 +1,38 @@
 {%extends 'main/base.html'%}
+
+
+{% block content %}
+
+<div class="">
+        <div class="row" id="main-nav">
+          <div class="col-3 no-float">
+                
+            <h1 id="main-logo">click</h1>
+          </div>
+          <div class="col-7 no-float" id="">
+                <img id="myImg" src="/static/images/veronika-kim.jpg" alt="" style="width:100%;max-width:300px">
+
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                
+                  <!-- The Close Button -->
+                  <span class="close">&times;</span>
+                
+                  <!-- Modal Content (The Image) -->
+                  <img class="modal-content" id="img01">
+                
+                  <!-- Modal Caption (Image Text) -->
+                  <div id="caption">This is Faith</div>
+                  <img src="/static/images/share-green.png" alt="share button" width="100" height="100" position="centered">
+                
+            </div>
+
+
+          </div>
+          <div class="col-2 no-float" id="mini-nav">
+            
+          </div>
+        </div>
+      </div>
+
+{%endblock%}
