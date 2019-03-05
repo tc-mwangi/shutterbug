@@ -1,8 +1,6 @@
 # Click™
+
 **click**, is a fan website dedicated to the epic Mirror's edge Catalyst Game Franchise. User's are able to view images and profiles of the characters in the game.
-
-## Motivation
-
 
 
 ##Screenshots
@@ -20,7 +18,8 @@
 OS X
 
 ### Pre-requisites
-* [Python 3.7.2](https://www.python.org/)
+* [Python 3](https://www.python.org/)
+* [Django version 1.11.17](https://www.djangoproject.com/download/)
 * IDE of your choice.
 
 
@@ -31,23 +30,19 @@ OS X
 git clone https://github.com/tc-mwangi/shutterbugg-Django.git
 ```
 
-* Install app dependencies:
+* Build Locally
 
 ```
-pip install -r requirements.txt
+$ python -m venv virtual
+$ source virtual/bin/activate
+$ pip install -r requirements.txt
+$ DEVELOPMENT=1 python manage.py runserver
 ```
 
-
-* Run program on terminal:
-
-```
-chmod a+x start.sh
-```
-
-* Run script:
+* Serve
 
 ```
-./start.sh
+Then visit http://localhost:8000 to view the app. 
 ```
 
 ### User Stories
@@ -60,7 +55,7 @@ chmod a+x start.sh
 
 
 ### BDD
-|     | Behaviour    |          Input                  | Output    | 
+|     | Behaviour    |          Input                | Output    | 
 |--- | ---         |     ---      |          --- |
 |  1. |     | -     | -     |
 |  2. | - | -   | -   |
