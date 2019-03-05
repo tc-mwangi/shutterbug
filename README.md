@@ -3,7 +3,7 @@
 
 ## Motivation
 
-In life, you only have 60 seconds to impress someone. 1 minute can make or break you. How do we make sure that you use your 1 minute to actually say something meaningful?
+
 
 ##Screenshots
 
@@ -28,7 +28,7 @@ OS X
 
 * Clone the app to a directory.
 ```
-git clone https://github.com/tc-mwangi/pitch-preview.git
+git clone https://github.com/tc-mwangi/shutterbugg-Django.git
 ```
 
 * Install app dependencies:
@@ -52,14 +52,11 @@ chmod a+x start.sh
 
 ### User Stories
 
-* As a user, I would like to see the pitches other people have posted.
-* As a user, I would like to vote on the pitch they liked and give it a downvote or upvote.
-* As a user, I would like to be signed in for me to leave a comment
-* As a user, I would like to receive a welcoming email once I sign up.
-* As a user, I would like to view the pitches I have created in my profile page.
-* As a user, I would like to comment on the different pitches and leave feedback.
-* As a user, I would like to submit a pitch in any category.
-* As a user, I would like to view the different categories.
+* View different photos that interest me.
+* Click on a single photo to expand it and also view the details of the photo. The photo details must appear on a modal within the same route as the main page. 
+* Search for different categories of photos. (ie. Travel, Food)
+* Copy a link to the photo to share with my friends.
+* View photos based on the location they were taken.
 
 
 ### BDD
@@ -73,7 +70,7 @@ chmod a+x start.sh
 
 ## Author
 
-**@top-cat** - *Initial work* - [PitchView™](https://github.com/tc-mwangi/pitch-preview)
+**@top-cat** - *Initial work* - [Click™](https://github.com/tc-mwangi/shutterbugg-Django)
 
 
 ## Credits
@@ -81,4 +78,4 @@ chmod a+x start.sh
 **Powered by** [-](/)
 
 ## License
-MIT © [PitchView™]()
+MIT © [Click™]()
