@@ -7,13 +7,13 @@
 
 ##Screenshots
 
-![image](https://cloud.githubusercontent.com/assets/9053854/24495974/fbf2e0cc-1547-11e7-846c-25b5fac7f6b1.png)
+![image](https://github.com/tc-mwangi/shutterbugg-Django/blob/master/static/screenshots/screencapture-figma-proto-YY7ptjpqnZURS5wsZkVD1I4M-Untitled-2019-03-05-07_48_20%20copy.png)
 
-![image](https://cloud.githubusercontent.com/assets/9053854/24495974/fbf2e0cc-1547-11e7-846c-25b5fac7f6b1.png)
+![image](https://github.com/tc-mwangi/shutterbugg-Django/blob/master/static/screenshots/screencapture-figma-proto-YY7ptjpqnZURS5wsZkVD1I4M-Untitled-2019-03-05-07_51_51%20copy.png)
 
-![image](https://cloud.githubusercontent.com/assets/9053854/24495974/fbf2e0cc-1547-11e7-846c-25b5fac7f6b1.png)
+![image](https://github.com/tc-mwangi/shutterbugg-Django/blob/master/static/screenshots/screencapture-figma-proto-YY7ptjpqnZURS5wsZkVD1I4M-Untitled-2019-03-05-07_52_21%20copy.png)
 
-![image](https://cloud.githubusercontent.com/assets/9053854/24495974/fbf2e0cc-1547-11e7-846c-25b5fac7f6b1.png)
+![image](https://github.com/tc-mwangi/shutterbugg-Django/blob/master/static/screenshots/screencapture-figma-proto-YY7ptjpqnZURS5wsZkVD1I4M-Untitled-2019-03-05-07_53_01%20(1)%20copy.png)
 
 
 ## Installation
