@@ -13,8 +13,8 @@ def home(request):
         [type] -- [description]
     '''
     title = "click-showcase"
-    images=Image.
-    return render(request, 'main/home.html', {"title":title})
+    image = Image.get_all()
+    return render(request, 'main/home.html', {"title":title}, {"image":image})
 
 
 def characters(request):
@@ -38,10 +38,6 @@ def locations(request):
     Returns:
         [type] -- [description]
     '''
-    # try:
-    #     image = Image.objects.get(id=location_id)
-    # except DoesNotExist:
-    #     raise Http404()
 
     return render(request, 'main/locations.html')
 
