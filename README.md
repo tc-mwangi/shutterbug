@@ -1,6 +1,6 @@
 # Click™
 
-**click**, is a fan website dedicated to the epic Mirror's edge Catalyst Game Franchise. User's are able to view images and profiles of the characters in the game.
+**click**, is a fan website dedicated to the epic MIRROR'S EDGE™ CATALYST Game Franchise. User's are able to view images and profiles of the characters in the game.
 
 
 ##Screenshots
@@ -49,7 +49,7 @@ Then visit http://localhost:8000 to view the app.
 
 * View different photos that interest me.
 * Click on a single photo to expand it and also view the details of the photo. The photo details must appear on a modal within the same route as the main page. 
-* Search for different categories of photos. (ie. Travel, Food)
+* Search for different categories of photos. Categories are based on the characters of the game.
 * Copy a link to the photo to share with my friends.
 * View photos based on the location they were taken.
 
@@ -57,10 +57,11 @@ Then visit http://localhost:8000 to view the app.
 ### BDD
 |     | Behaviour    |          Input                | Output    | 
 |--- | ---         |     ---      |          --- |
-|  1. |     | -     | -     |
-|  2. | - | -   | -   |
-|  3. | -   | -     | -    |
-|  4. |    - |  -  | - |
+|  1. | display menu options |     | home, characters, locations, search      |
+|  2. | display images on homepage |    | on click , open image modal  with image details and share button option  |
+|  3. | diplay images based on characters  |  -  |  redirect to selected character's page  |
+|  4. | diplay images based on locations found in the game  |  -  |  redirect to selected location page  |
+|  5. | display search bar |  search_term based on categories  | redirect to search results page |
 
 
 ## Author
