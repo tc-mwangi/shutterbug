@@ -8,6 +8,7 @@ urlpatterns=[
     url('^$', views.home, name='homepage'),
     url(r'^characters/',views.characters, name='characters'),
     url(r'^search/', views.search_results, name='search_results'),
+    url(r'^locations/', views.locations, name='locations'),
     url(r'^modal/', views.modal, name='modal'),
 ]
 

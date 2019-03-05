@@ -19,6 +19,12 @@ class Location(models.Model):
     def save_location(self):
         self.save()
 
+    def delete_location(self):
+        self.delete()
+
+    def update_location(self):
+        self.update()
+
 
 class Category(models.Model):
     '''creates instances of characters
@@ -36,6 +42,12 @@ class Category(models.Model):
     
     def save_category(self):
         self.save()
+
+    def delete_category(self):
+        self.delete()
+
+    def update_category(self):
+        self.update()
 
 
 class Image(models.Model):
@@ -57,7 +69,7 @@ class Image(models.Model):
         return self.image_name
 
     class meta:
-        ordering = ['img_name']
+        ordering = ['image_name']
 
   
     def save_image(self):
@@ -71,30 +83,43 @@ class Image(models.Model):
         '''
         self.delete()
 
-    @classmethod
+    
     def update_image(self):
         '''update image in the database
         '''
+        self.update()
+
 
     @classmethod
-    def get_image_by_id(id):
-        '''retrieve image by id
+    def get_image_by_id(cls, id):
+        '''retrieve images by id
         '''
+        image=cls.objects.filter(id__id=id)
+        return image
 
     @classmethod
     def search_image_by_category(cls, search_term):
         '''search image by category
         '''
-        image = cls.objects.filter(category__icontains=search_term)
+        image = cls.objects.filter(upload_image__icontains=search_term)
         return image
 
 
     @classmethod
-    def filter_by_location(cls, search_term):
+    def filter_by_location(cls, id):
         '''filter image by location
         '''
-        image = cls.objects.filter(location__icontains=search_term)
+        image = cls.objects.filter(location__location= id)
         return image
+
+    @classmethod
+    def get_all(cls):
+        "fetches all images"
+        image = cls.objects.all()
+        return image
+
+
+         
 
 
 
