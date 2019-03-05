@@ -62,8 +62,8 @@ class Image(models.Model):
     location = models.ForeignKey(Location)
     category = models.ForeignKey(Category)
     post_date = models.DateTimeField(auto_now_add=True)
-    upload_image= models.ImageField(upload_to = 'images/')
-
+    article_image = models.ImageField(upload_to = 'articles/', null=True)
+   
 
     def __str__(self):
         return self.image_name
