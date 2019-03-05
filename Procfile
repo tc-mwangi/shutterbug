@@ -1,0 +1,1 @@
+web: gunicorn shutterbugg.wsgi --log-file -
