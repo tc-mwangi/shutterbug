@@ -63,6 +63,26 @@ Then visit http://localhost:8000 to view the app.
 |  4. | diplay images based on locations found in the game  |  -  |  redirect to selected location page  |
 |  5. | display search bar |  search_term based on categories  | redirect to search results page |
 
+### Category Search Terms
+Carry out search based on category:
+* faith
+* nomad (not enabled)
+* icarus (not enabled)
+* dogen (not enabled)
+* birdman (not enabled)
+* noah (not enabled)
+* gabriel kruger (not enabled)
+
+### Location Search Terms
+Carry out search based on location:
+* shard
+* city of glass
+* cascadia
+* the city
+* mercury's hideout
+* elysium
+* sky city
+
 
 ## Author
 
