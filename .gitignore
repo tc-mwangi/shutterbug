@@ -107,3 +107,4 @@ venv.bak/
 virtual/
 *.pyc
 .env
+.DS_Store
